@@ -127,8 +127,8 @@ window.Intercom || (window.Intercom = function(){});
       if (typeof chatWarn == 'function') {
         chatWarn("automatically updated to v" + p0ne.version, 'plug_p0ne');
       }
-    }*/
-  }
+    }
+  }*/
   
   if (!console.group) {
     console.group = console.log;
