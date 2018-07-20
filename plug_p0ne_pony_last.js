@@ -115,10 +115,10 @@ console.warn = function(){
 };
 window.Intercom || (window.Intercom = function(){});
 //No updates, disable this for now
-/*(ref$ = window.amplitude).__VERSION__ || (ref$.__VERSION__ = -1);
+//(ref$ = window.amplitude).__VERSION__ || (ref$.__VERSION__ = -1);
 (function(p0neInit){
   var p0neInitWrapper, p0neInitWrapper2, v, onMigrated;
-  if (window.P0NE_UPDATE) {
+  /*if (window.P0NE_UPDATE) {
     window.P0NE_UPDATE = false;
     if ((p0ne_ != null ? p0ne_.version : void 8) === window.p0ne.version) {
       window.p0ne = p0ne_;
@@ -127,9 +127,9 @@ window.Intercom || (window.Intercom = function(){});
       if (typeof chatWarn == 'function') {
         chatWarn("automatically updated to v" + p0ne.version, 'plug_p0ne');
       }
-    }
+    }*/
   }
-*/
+  
   if (!console.group) {
     console.group = console.log;
     console.groupEnd = $.noop;
