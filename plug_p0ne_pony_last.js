@@ -114,7 +114,8 @@ console.warn = function(){
   this.warn_.apply(this, arguments);
 };
 window.Intercom || (window.Intercom = function(){});
-(ref$ = window.amplitude).__VERSION__ || (ref$.__VERSION__ = -1);
+//No updates, disable this for now
+/*(ref$ = window.amplitude).__VERSION__ || (ref$.__VERSION__ = -1);
 (function(p0neInit){
   var p0neInitWrapper, p0neInitWrapper2, v, onMigrated;
   if (window.P0NE_UPDATE) {
@@ -128,6 +129,7 @@ window.Intercom || (window.Intercom = function(){});
       }
     }
   }
+*/
   if (!console.group) {
     console.group = console.log;
     console.groupEnd = $.noop;
@@ -316,6 +318,8 @@ window.Intercom || (window.Intercom = function(){});
       return lambda;
   });
 
+//This line was broken, edit
+//  window.l = window.l_ = window.Î» = function(expression) {
   window.l = window.l_ = function(expression) {
       var vars = [], refs = 0
       var replacedNCO = true
